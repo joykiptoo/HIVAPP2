@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HIV APP 2</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account? Register here.</string>
+    <string name="username">Username</string>
+    <string name="usernamereg">Username</string>
+    <string name="passwordreg">Password</string>
+    <string name="emailreg">Email</string>
+    <string name="register">Register</string>
+</resources>
