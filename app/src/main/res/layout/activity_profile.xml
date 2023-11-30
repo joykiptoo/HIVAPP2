@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/pic2"
+    >
+
+
+    <RadioGroup
+        android:id="@+id/genderRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/genderRadioGroup"
+        android:layout_marginTop="56dp"
+        android:hint="Phone Number" />
+
+    <EditText
+        android:id="@+id/symptomsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneNumberEditText"
+        android:layout_marginTop="28dp"
+        android:hint="Symptoms"
+        />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/symptomsEditText"
+        android:layout_marginTop="38dp"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/fetchButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saveButton"
+        android:layout_marginTop="18dp"
+        android:text="@string/fetch" />
+
+    <Button
+        android:id="@+id/deleteAccountButton"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fetchButton"
+        android:layout_marginTop="23dp"
+        android:text="@string/delete_account" />
+
+    <RadioButton
+        android:id="@+id/maleRadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/male" />
+
+</RelativeLayout>

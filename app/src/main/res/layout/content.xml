@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pic2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Information about HIV -->
+            <TextView
+                android:id="@+id/textHIVInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HIV Information:\nBrief content about HIV goes here."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="16dp"/>
+
+            <!-- Symptoms of HIV -->
+            <TextView
+                android:id="@+id/textSymptoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms of HIV:\n1. Fever\n2. Fatigue\n3. Weight Loss\n4. Recurrent Infections"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="16dp"/>
+
+            <!-- Preventive Measures -->
+            <TextView
+                android:id="@+id/textPreventiveMeasures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Preventive Measures:\n1. Use condoms consistently and correctly\n2. Get tested and know your partner's status\n3. Avoid sharing needles\n4. Educate yourself and others about HIV"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Question at the bottom with Yes and No buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you know your status?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"/>
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pic2">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="372dp"
+                android:layout_height="537dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/unprotected_sexual_intercourse_transmission_can_occur_through_vaginal_anal_or_oral_sex_with_an_infected_partner_without_the_use_of_barrier_methods_like_condoms_or_dental_dams_sharing_needles_or_syringes_injecting_drugs_with_contaminated_equipment_is_a_significant_risk_factor_for_hiv_transmission_mother_to_child_transmission_hiv_can_be_transmitted_from_an_infected_mother_to_her_child_during_childbirth_or_breastfeeding_blood_transfusions_and_organ_transplants_though_rare_in_areas_with_strict_screening_protocols_hiv_transmission_can_occur_through_infected_blood_or_organs_occupational_exposure_healthcare_workers_may_be_at_risk_if_they_come_into_contact_with_hiv_infected_blood_or_other_body_fluids_in_a_healthcare_setting_needlestick_injuries_accidental_needle_injuries_particularly_in_healthcare_or_laboratory_settings_can_lead_to_transmission_if_the_needle_is_contaminated_with_hiv_infected_blood_from_infected_mother_to_child_in_addition_to_childbirth_hiv_can_be_transmitted_during_pregnancy_or_through_breastfeeding"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:text="@string/go_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

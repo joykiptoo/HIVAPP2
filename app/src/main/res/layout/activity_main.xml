@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/pic2">
+
+
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/goToProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="end"
+                android:text="@string/go_to_profile" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black"
+                android:text="@string/welcome_to_the_hiv_and_aids_application"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <!-- Information about HIV -->
+            <TextView
+                android:id="@+id/textHIVInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:text="@string/hiv_human_immunodeficiency_virus_is_a_virus_that_attacks_the_immune_system_it_targets_cd4_cells_t_cells_crucial_for_immune_defense_against_infections_untreated_hiv_can_progress_to_aids_acquired_immunodeficiency_syndrome_transmission_occurs_through_contact_with_certain_body_fluids_blood_semen_vaginal_fluids_rectal_fluids_and_breast_milk"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_nextpage"
+                android:text="Next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:layout_gravity="right"/>
+
+
+            <!-- Symptoms of HIV -->
+            <TextView
+                android:id="@+id/textSymptoms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:text="@string/symptoms_of_hiv_n1_fever_n2_fatigue_n3_weight_loss_n4_recurrent_infections"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Preventive Measures -->
+            <TextView
+                android:id="@+id/textPreventiveMeasures"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:text="@string/preventive_measures_n1_use_condoms_consistently_and_correctly_n2_get_tested_and_know_your_partner_s_status_n3_avoid_sharing_needles_n4_educate_yourself_and_others_about_hiv"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:text="@string/click_to_know_more"
+                />
+
+
+            <Button
+                android:id="@+id/btn_advise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/chat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/do_you_know_your_status"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="32dp"
+                android:layout_gravity="end"
+                android:text="@string/yes"
+                />
+
+            <Button
+                android:id="@+id/btnNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:layout_gravity="end"
+                tools:ignore="HardcodedText" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/logout" />
+
+</LinearLayout>
